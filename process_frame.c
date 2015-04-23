@@ -204,24 +204,3 @@ void MaxFinder()
 		}
 	}
 }
-
-void findMax(int a[], int n) {
-	int max = a[0];
-	int c;
-
-	for (c=0; c<n;c++){
-		if (a[c] > max){
-			max = a[c];
-		}
-	}
-/*	int x, i, j;
-	for ( i= n-2; i > 0; i--){
-		for (j = 0; j<=i; j++){
-			if ( a[j+1] < a[j] ){
-				x = a[j];
-				a[j] = a[j+1];
-				a[j+1] = x;
-			}
-		}
-	}*/
-}
